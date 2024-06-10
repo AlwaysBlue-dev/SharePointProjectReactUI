@@ -3,7 +3,17 @@ import headerImage from '../assets/header.jpg';
 
 const Header = () => {
     return (
+
+
         <div className="container-fluid">
+            <div class="feedback-button">
+                <div class="calendar">
+                    <div class="day">MON</div>
+                    <div class="date">10</div>
+                </div>
+                <a href="#"><button class="btn">FEEDBACK</button></a>
+            </div>
+
             <div className="row">
                 <div className="col-md-7 position-relative">
                     <div className="content-header">
