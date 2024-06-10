@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #d6336c;
+}
+
+.navbar-logo {
+  max-height: 60px;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+.outlined-text {
+  font-weight: bold;
+  color: white;
+}
+
+.outlined-text::before {
+  content: 'BRANT & ASSOCIATES';
+  -webkit-text-stroke: 1px pink;
+}
+
+.content-header {
+  /* background-color: #e8e8e8; */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.content-header img {
+  max-width: 100%;
+  height: auto;
+}
+
+.content-section {
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 0;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+.card-header {
+  /* background-color: #d6336c; */
+  color: white;
+  padding: 10px;
+}
+
+.news {
+  background-color: #d6336c;
+}
+
+.chat {
+  background-color: #1B1212;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.chat-input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+}
+
+.sidebar {
+  padding: 10px;
+}
+
+.sidebar .icon-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.sidebar .icon {
+  background-color: #d6336c;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.sidebar .icon i {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+
+.fixed-image {
+  max-width: 100%;
+  height: auto;
+  max-height: 100px;
+
+}
+
+.form-inline .form-control {
+  width: calc(100% - 40px);
+  /* Adjust width considering the button width */
+}
+
+.form-inline .btn {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0;
+  border: none;
+  background: none;
+  width: 40px;
+  /* Adjust to match the search icon size */
+  height: 100%;
+}
+
+.form-inline .btn i {
+  font-size: 1.2em;
+  /* Adjust the icon size as needed */
+}
