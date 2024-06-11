@@ -14,6 +14,11 @@ body {
   color: white;
 }
 
+.navbar-nav .nav-item:hover .nav-link,
+.navbar-nav .dropdown-item:hover {
+  color: #d6336c;
+}
+
 .navbar-brand:hover {
   color: white;
 }
@@ -176,4 +181,32 @@ body {
   align-items: center;
   justify-content: center;
   writing-mode: vertical-lr;
+}
+
+.feedback-button .btn:hover {
+  background-color: #d6336c;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-image {
+  height: 430px;
+  width: 100%;
+}
+
+.overlay-text {
+  bottom: 10%;
+  left: 10%;
+  width: 80%;
+  background-color: rgba(27, 18, 18, 0.8);
+  padding: 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #d6336c;
 }

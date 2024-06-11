@@ -1,5 +1,5 @@
 import React from 'react';
-import logoImage from '../assets/logo.jpeg';
+import logoImage from '../assets/logo.jpg';
 
 const Navbar = () => {
     return (
@@ -31,53 +31,53 @@ const Navbar = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarBottom">
                     <ul className="navbar-nav mr-auto">
-                    <li className="nav-item active">
-                    <a className="nav-link" href="#">Home</a>
-                </li>
-                <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" id="careersDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Careers
-                    </a>
-                    <div className="dropdown-menu" aria-labelledby="careersDropdown">
-                        <a className="dropdown-item" href="#">Job Openings</a>
-                        <a className="dropdown-item" href="#">Internships</a>
-                        <a className="dropdown-item" href="#">Career Fairs</a>
-                    </div>
-                </li>
-                <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" id="meetingsDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Meetings & Groups
-                    </a>
-                    <div className="dropdown-menu" aria-labelledby="meetingsDropdown">
-                        <a className="dropdown-item" href="#">Conference Rooms</a>
-                        <a className="dropdown-item" href="#">Group Events</a>
-                        <a className="dropdown-item" href="#">Schedule a Meeting</a>
-                    </div>
-                </li>
-                <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" id="promotionsDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Our Promotions
-                    </a>
-                    <div className="dropdown-menu" aria-labelledby="promotionsDropdown">
-                        <a className="dropdown-item" href="#">Current Offers</a>
-                        <a className="dropdown-item" href="#">Upcoming Events</a>
-                        <a className="dropdown-item" href="#">Past Events</a>
-                    </div>
-                </li>
-                <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" id="linksDropdown" role="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        My Links
-                    </a>
-                    <div className="dropdown-menu" aria-labelledby="linksDropdown">
-                        <a className="dropdown-item" href="#">Profile</a>
-                        <a className="dropdown-item" href="#">Settings</a>
-                        <a className="dropdown-item" href="#">Logout</a>
-                    </div>
-                </li>
+                        <li className="nav-item active">
+                            <a className="nav-link" href="#">Home</a>
+                        </li>
+                        <li className="nav-item dropdown">
+                            <a className="nav-link dropdown-toggle" href="#" id="careersDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Careers
+                            </a>
+                            <div className="dropdown-menu" aria-labelledby="careersDropdown">
+                                <a className="dropdown-item" href="#">Job Openings</a>
+                                <a className="dropdown-item" href="#">Internships</a>
+                                <a className="dropdown-item" href="#">Career Fairs</a>
+                            </div>
+                        </li>
+                        <li className="nav-item dropdown">
+                            <a className="nav-link dropdown-toggle" href="#" id="meetingsDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Meetings & Groups
+                            </a>
+                            <div className="dropdown-menu" aria-labelledby="meetingsDropdown">
+                                <a className="dropdown-item" href="#">Conference Rooms</a>
+                                <a className="dropdown-item" href="#">Group Events</a>
+                                <a className="dropdown-item" href="#">Schedule a Meeting</a>
+                            </div>
+                        </li>
+                        <li className="nav-item dropdown">
+                            <a className="nav-link dropdown-toggle" href="#" id="promotionsDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Our Promotions
+                            </a>
+                            <div className="dropdown-menu" aria-labelledby="promotionsDropdown">
+                                <a className="dropdown-item" href="#">Current Offers</a>
+                                <a className="dropdown-item" href="#">Upcoming Events</a>
+                                <a className="dropdown-item" href="#">Past Events</a>
+                            </div>
+                        </li>
+                        <li className="nav-item dropdown">
+                            <a className="nav-link dropdown-toggle" href="#" id="linksDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                My Links
+                            </a>
+                            <div className="dropdown-menu" aria-labelledby="linksDropdown">
+                                <a className="dropdown-item" href="#">Profile</a>
+                                <a className="dropdown-item" href="#">Settings</a>
+                                <a className="dropdown-item" href="#">Logout</a>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </nav>
