@@ -1,6 +1,6 @@
 import React from 'react';
-import newsImage from '../assets/news.jpg'; 
-import celebrationImage from '../assets/celebration.jpg'; 
+import newsImage from '../assets/news.jpg';
+import celebrationImage from '../assets/celebration.jpg';
 
 const Card = () => {
     return (
@@ -52,9 +52,9 @@ const Card = () => {
                                     </div>
                                 </div>
                             </form>
-                            <div className="col-md-12 mt-3">
+                            <div className="col-md-12 mt-3" style={{ fontSize: "13px" }}>
                                 <p><span className="font-weight-bold">Harold Katerjian</span> - <small className="text-muted">13 hours ago</small></p>
-                                <p>WOW. Who knew turtles could weigh in as</p>
+                                <p>WOW.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
                         </div>
                     </div>
