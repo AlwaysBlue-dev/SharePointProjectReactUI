@@ -63,41 +63,40 @@ const Header = () => {
 
                 <div className="col-md-5 sidebar">
                     <div className="icon-grid">
-                        <a href="#" className="icon">
+                        <a href="https://keeper.app/login" className="icon" target="_blank">
+                            <i className="fas fa-user-friends"></i>
+                            <p>Keeper</p>
+                        </a>
+                        <a href="https://accounts.intuit.com/app/sign-in?app_group=QBO&asset_alias=Intuit.accounting.core.qbowebapp&app_environment=prod"
+                            className="icon" target="_blank">
+                            <i className="fas fa-business-time"></i>
+                            <p>Quickbooks</p>
+                        </a>
+                        <a href="https://apps.trustmineral.com/auth/login" className="icon" target="_blank">
+                            <i className="fas fa-user-tie"></i>
+                            <p>Bamboo HR</p>
+                        </a>
+                        <a href="https://accounts.intuit.com/app/sign-in?app_group=QBTime&asset_alias=Intuit.qbshared.tsheets#"
+                            className="icon" target="_blank">
+                            <i className="fas fa-clock"></i>
+                            <p>Clock In/Out</p>
+                        </a>
+                        <a href="https://accounts.intuit.com/app/sign-in?app_group=Workforce&asset_alias=Intuit.smallbusiness.vmp.employeewidgets&redirect_uri=https%3A%2F%2Fpaychecks.intuit.com%2Fapp%2Fpayroll-employee-portal-ui%2Fportal%2Fpaychecks&single_sign_on=false&appfabric=true"
+                            className="icon" target="_blank">
+                            <i className="fas fa-business-time"></i>
+                            <p>Workforce</p>
+                        </a>
+                        <a href="#" className="icon" target="_blank">
                             <i className="fas fa-envelope"></i>
                             <p>Mail</p>
                         </a>
-                        <a href="#" className="icon">
-                            <i className="fas fa-cloud"></i>
-                            <p>OneDrive</p>
-                        </a>
-                        <a href="#" className="icon">
-                            <i className="fas fa-tasks"></i>
-                            <p>Planner</p>
-                        </a>
-                        <a href="#" className="icon">
-                            <i className="fas fa-address-book"></i>
-                            <p>Phonebook</p>
-                        </a>
-                        <a href="#" className="icon">
+                        <a href="#" className="icon" target="_blank">
                             <i className="fas fa-calendar-alt"></i>
                             <p>Calendar</p>
                         </a>
-                        <a href="#" className="icon">
-                            <i className="fas fa-trophy"></i>
-                            <p>Sales</p>
-                        </a>
-                        <a href="#" className="icon">
-                            <i className="fas fa-video"></i>
-                            <p>Videos</p>
-                        </a>
-                        <a href="#" className="icon">
+                        <a href="#" className="icon" target="_blank">
                             <i className="fas fa-users"></i>
                             <p>Teams</p>
-                        </a>
-                        <a href="#" className="icon">
-                            <i className="fas fa-chart-pie"></i>
-                            <p>Metrics</p>
                         </a>
                     </div>
                 </div>
