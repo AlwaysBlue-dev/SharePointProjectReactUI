@@ -103,7 +103,7 @@ const Navbar = () => {
                             </a>
                             <div className="dropdown-menu" aria-labelledby="meetingsDropdown">
                                 <a className="dropdown-item" href="https://apps.trustmineral.com/auth/login" target="_blank">Mineral</a>
-                                <a className="dropdown-item" href="https://apps.trustmineral.com/auth/login" target="_blank">Bamboo HR</a>
+                                <a className="dropdown-item" href="https://legalfinancialservices.bamboohr.com/login.php" target="_blank">Bamboo HR</a>
                                 <a className="dropdown-item" href="https://accounts.intuit.com/app/sign-in?app_group=QBTime&asset_alias=Intuit.qbshared.tsheets#" target="_blank">Quickbooks Time (Clock In)</a>
                                 <a className="dropdown-item" href="https://accounts.intuit.com/app/sign-in?app_group=Workforce&asset_alias=Intuit.smallbusiness.vmp.employeewidgets&redirect_uri=https%3A%2F%2Fpaychecks.intuit.com%2Fapp%2Fpayroll-employee-portal-ui%2Fportal%2Fpaychecks&single_sign_on=false&appfabric=true" target="_blank">Workforce</a>
                                 <a className="dropdown-item" href="https://accounts.intuit.com/app/sign-in?app_group=Workforce&asset_alias=Intuit.smallbusiness.vmp.employeewidgets&redirect_uri=https%3A%2F%2Fpaychecks.intuit.com%2Fapp%2Fpayroll-employee-portal-ui%2Fportal%2Fpaychecks&single_sign_on=false&appfabric=true" target="_blank">Payroll</a>

@@ -72,7 +72,7 @@ const Header = () => {
                             <i className="fas fa-business-time"></i>
                             <p>Quickbooks</p>
                         </a>
-                        <a href="https://apps.trustmineral.com/auth/login" className="icon" target="_blank">
+                        <a href="https://legalfinancialservices.bamboohr.com/login.php" className="icon" target="_blank">
                             <i className="fas fa-user-tie"></i>
                             <p>Bamboo HR</p>
                         </a>
