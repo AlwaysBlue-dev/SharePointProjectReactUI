@@ -83,7 +83,7 @@ const Header = () => {
                         </a>
                         <a href="https://accounts.intuit.com/app/sign-in?app_group=Workforce&asset_alias=Intuit.smallbusiness.vmp.employeewidgets&redirect_uri=https%3A%2F%2Fpaychecks.intuit.com%2Fapp%2Fpayroll-employee-portal-ui%2Fportal%2Fpaychecks&single_sign_on=false&appfabric=true"
                             className="icon" target="_blank">
-                            <i className="fas fa-business-time"></i>
+                            <i className="fas fa-briefcase"></i>
                             <p>Workforce</p>
                         </a>
                         <a href="#" className="icon" target="_blank">
