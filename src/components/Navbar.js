@@ -39,7 +39,7 @@ const Navbar = () => {
                                 HR & Benefits
                             </a>
                             <div className="dropdown-menu" aria-labelledby="careersDropdown">
-                                <a className="dropdown-item" href="#" >Payroll</a>
+                                <a className="dropdown-item" href="https://accounts.intuit.com/app/sign-in?app_group=Workforce&asset_alias=Intuit.smallbusiness.vmp.employeewidgets&redirect_uri=https%3A%2F%2Fpaychecks.intuit.com%2Fapp%2Fpayroll-employee-portal-ui%2Fportal%2Fpaychecks&single_sign_on=false&appfabric=true" >Payroll</a>
                                 <a className="dropdown-item" href="#" >View Payslips</a>
                                 <a className="dropdown-item" href="#" >Tax Documents</a>
                                 <a className="dropdown-item" href="#" >Benefits</a>
